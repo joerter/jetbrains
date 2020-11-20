@@ -1,0 +1,28 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="o" />
+  </action>
+  <action id="EditorScrollToCenter" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="ScrollTreeToCenter" />
+  <action id="ShowBookmarks" />
+  <action id="Terminal.RenameSession">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="shift semicolon" />
+  </action>
+  <action id="TerminalSplitActionBase$Horizontal">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="shift 5" />
+  </action>
+  <action id="TerminalSplitActionBase$Vertical">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="shift quote" />
+  </action>
+  <action id="Vcs.ShowMessageHistory" />
+</keymap>

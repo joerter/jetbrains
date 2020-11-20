@@ -1,0 +1,20 @@
+let mapleader=","
+
+set nu
+set rnu
+set numberwidth=1
+inoremap jks <esc>:action SaveDocument<CR>
+inoremap jk <esc>
+
+" Working with splits
+nnoremap <leader>vs :action SplitVertically<cr>
+nnoremap <leader>hs :action SplitHorizontally<cr>
+nnoremap <c-j> <C-w>j
+nnoremap <c-h> <C-w>h
+nnoremap <c-k> <C-w>k
+nnoremap <c-l> <C-w>l
+
+" Closing tabs
+nmap <leader>q :action CloseContent<cr>
+nmap <leader>Q :action ReopenClosedTab<cr>
+nmap <leader>ba :action CloseAll<cr>

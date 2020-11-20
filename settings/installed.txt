@@ -1,0 +1,6 @@
+IdeaVIM
+Key Promoter X
+com.markskelton.one-dark-theme
+com.microsoft.vso.idea
+com.vermouthx.idea
+intellij.prettierJS
